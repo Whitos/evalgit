@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation de Git</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Votre CSS personnalisé -->
+    <link rel="stylesheet" href="git.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Git et Github</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="glossary.html">Glossaire</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="install.html">Installer Git</a></li>
+                            <li><a class="dropdown-item" href="branches.html">Gestion des branches</a></li>
+                            <li><a class="dropdown-item" href="remote.html">Commandes distantes</a></li>
+                            <li><a class="dropdown-item" href="security.html">SSH et sécurité</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="mb-4">Installer Git</h1>
+        <p class="lead">Suivez ces étapes pour installer et configurer Git sur votre système.</p>
+        <div class="mb-3">
+            <h5>Téléchargement de Git</h5>
+            <p>Visitez <a href="https://git-scm.com/downloads" target="_blank" class="link-primary">git-scm.com/downloads</a> et téléchargez la version appropriée pour votre système d'exploitation.</p>
+        </div>
+        <div class="mb-3">
+            <h5>Configuration de Base</h5>
+            <p>Après l'installation, ouvrez votre terminal et configurez votre identité Git avec les commandes suivantes :</p>
+            <code>git config --global user.name "Votre Nom"</code><br>
+            <code>git config --global user.email "votre-email@example.com"</code>
+        </div>
+        <div class="mb-3">
+            <h5>Vérification de la Configuration</h5>
+            <p>Pour vérifier que tout est configuré correctement, tapez :</p>
+            <code>git config --list</code>
+        </div>
+    </div>
+
+
+    <!-- Bundle JS de Bootstrap avec Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

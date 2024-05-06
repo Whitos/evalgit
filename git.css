@@ -3,6 +3,11 @@ body{
     font-family:Verdana;
 }
 
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
 h2{
     text-align:center;
 }

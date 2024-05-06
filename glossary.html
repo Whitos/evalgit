@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossaire des commandes Git et Github</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Votre CSS personnalisé -->
+    <link rel="stylesheet" href="git.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Git et Github</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="glossary.html">Glossaire</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="install.html">Installer Git</a></li>
+                            <li><a class="dropdown-item" href="branches.html">Gestion des branches</a></li>
+                            <li><a class="dropdown-item" href="remote.html">Commandes distantes</a></li>
+                            <li><a class="dropdown-item" href="security.html">SSH et sécurité</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="mb-4">Glossaire des commandes Git et Github</h1>
+        <p class="lead">Cette section est en cours de construction. Nous ajoutons continuellement de nouveaux termes et commandes.</p>
+
+        <!-- Exemple de contenu du glossaire -->
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Commandes Basiques</h5>
+                <dl class="row">
+                    <dt class="col-sm-4">git init</dt>
+                    <dd class="col-sm-8">Initialise un nouveau dépôt git.</dd>
+
+                    <dt class="col-sm-4">git clone</dt>
+                    <dd class="col-sm-8">Clone un dépôt existant.</dd>
+
+                    <dt class="col-sm-4">git add</dt>
+                    <dd class="col-sm-8">Ajoute des fichiers à l'index.</dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <h5>Commandes Avancées</h5>
+                <dl class="row">
+                    <dt class="col-sm-4">git rebase</dt>
+                    <dd class="col-sm-8">Réapplique des commits sur une autre base.</dd>
+
+                    <dt class="col-sm-4">git merge</dt>
+                    <dd class="col-sm-8">Fusionne deux branches.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bundle JS de Bootstrap avec Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

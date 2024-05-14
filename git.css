@@ -1,6 +1,7 @@
-body{
-    background: linear-gradient(100deg, #bf3989, #aa0ea2da);
-    font-family:Verdana;
+body {
+    background-color: #0d1117;
+    font-family: Verdana, sans-serif;
+    color: #fff; /* Couleur de texte blanche */
 }
 
 .navbar-brand img {
@@ -8,81 +9,96 @@ body{
     height: 40px;
 }
 
-h2{
-    text-align:center;
-}
-
-.commands_container{
-    width:50%;
-    margin:5px auto 5px auto;
-    border:3px solid rgb(169, 126, 209);
-    padding-left:10px;
-}
-.search{
-border-color: white !important;
-color: white !important;
-
-}
-.search:hover{
-    color:black;
-    background-color: rgb(180, 138, 219) !important ;
-}
-.d-flex{
-    margin-top:auto;
-    margin-bottom:auto;
-}
-
-.section_title{
+h2 {
     text-align: center;
-    font-weight: bold;}
-li{
-    display:inline-block;
-    margin-bottom:3px;
-    margin-top:3px;
+    color: #000000; /* Couleur du titre */
 }
-label{
-    font-size: medium;
+
+.carousel-container {
+    color: #0d1117; /* Couleur de fond du carrousel */
+    background-color: #262f3d; /* Couleur du texte */
+
 }
-a{ 
-    text-decoration:none;
+
+.carousel-caption h1,
+.carousel-caption p,
+.carousel-caption a {
+    color: #ffffff; /* Couleur du texte dans la légende, les paragraphes et les liens */
 }
-.command-buttons{
-    width:500px;
+
+.commands_container {
+    width: 60%; /* Augmentation de la largeur du conteneur */
+    margin: 20px auto; /* Augmentation de la marge supérieure */
+    border: 3px solid #000000; /* Couleur de bordure violette */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Augmentation de l'espacement intérieur */
+    
 }
+
+.search {
+    border-color: transparent; /* Suppression de la bordure */
+    color: #fff;
+    background-color: #000000; /* Couleur de fond violette */
+}
+
+.search:hover {
+    background-color: #000000; /* Couleur de fond violette plus foncée au survol */
+}
+
+.section_title {
+    text-align: center;
+    font-weight: bold;
+    color: #000000; /* Couleur du titre */
+}
+
+li {
+    display: inline-block;
+    margin: 5px; /* Espacement entre les éléments de liste */
+}
+
+label {
+    font-size: 16px; /* Taille de police légèrement augmentée */
+    color: #000000; /* Couleur du texte */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff; /* Couleur des liens */
+}
+
+.command-buttons {
+    width: 100%; /* Largeur à 100% pour occuper tout l'espace disponible */
+    max-width: 500px; /* Largeur maximale pour éviter que les boutons ne deviennent trop larges */
+    margin: 10px auto; /* Marge centrée */
+}
+
 hr {
-    padding-left:0px;
-    height: 5px;
-    background-color: rgb(111, 30, 111);
-    border-color: rgb(111, 30, 111);
-    width:98%;
-    margin-left:auto;
-    margin-right:auto;
+    height: 3px; /* Hauteur de la ligne de séparation réduite */
+    background-color: #ffffff; /* Couleur de ligne violette */
+    border: none; /* Suppression de la bordure */
 }
+
 img {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-
+    display: block;
+    margin: 0 auto; /* Centrage horizontal des images */
 }
 
-footer{
-    padding-top:5px;
-    width:50%;
-    margin:10px auto 20px auto;
-    border:3px solid rgb(169, 126, 209);
-    font-weight:lighter;
-    text-align:center;
-
+footer {
+    padding-top: 20px; /* Augmentation de la marge supérieure */
+    width: 60%;
+    margin: 20px auto; /* Marge centrée */
+    border: 3px solid #ffffff; /* Couleur de bordure violette */
+    border-radius: 10px; /* Coins arrondis */
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff; /* Couleur du texte */
 }
 
-.in-text-link{
-    text-decoration:none;
-    color:rgb(176, 93, 218);
+.in-text-link {
+    text-decoration: none;
+    color: #000000; /* Couleur des liens */
 }
 
-a:link{
-    text-decoration:none;
-}
-.in-text-link:hover{
-    color:rgb(124, 39, 167);
+.in-text-link:hover {
+    color: #000000; /* Couleur des liens plus foncée au survol */
 }

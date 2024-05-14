@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commandes Git et Github</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="git.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/ghlogo.png" alt="Logo Git et Github"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -23,7 +27,8 @@
                         <a class="nav-link" href="glossary.html">Glossaire</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Sections
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -38,6 +43,81 @@
         </div>
     </nav>
 
+    <main>
+        <div id="myCarousel" class="carousel slide carousel-container" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/git-logo.png" alt="git.png" width="900" height="400">
+
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Git</h1>
+                            <p>Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre et
+                                gratuit, créé en 2005 par Linus Torvalds, auteur du noyau Linux, et distribué selon les
+                                termes de la licence publique générale GNU version 2. Le principal contributeur actuel
+                                de Git, et ce depuis plus de 16 ans, est Junio C Hamano.
+                            </p>
+                            <p><a class="btn btn-lg bg-dark btn-dark" href="https://fr.wikipedia.org/wiki/Git">Voir sur
+                                    Wikipédia</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/images/github.png" alt="github.png" width="900" height="400">
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>GitHub</h1>
+                            <p>GitHub (/ɡɪthʌb/, entreprise GitHub, Inc.) est un service web d'hébergement et de gestion
+                                de développement de logiciels, utilisant le logiciel de gestion de versions Git. Ce site
+                                est développé en Ruby on Rails et Erlang par Chris Wanstrath, PJ Hyett et Tom
+                                Preston-Werner. GitHub propose des comptes professionnels payants, ainsi que des comptes
+                                gratuits pour les projets de logiciels libres.
+                            </p>
+                            <p><a class="btn btn-lg bg-dark btn-dark" href="https://fr.wikipedia.org/wiki/Hyperlien">Voir sur
+                                    Wikipédia</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/gitlab.png" alt="gitlab.png" width="900" height="400">
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>GitLab</h1>
+                            <p>GitLab est un logiciel libre de forge basé sur git proposant les fonctionnalités de wiki,
+                                un système de suivi des bugs, l’intégration continue et la livraison continue.
+                            </p>
+                            <p><a class="btn btn-lg bg-dark btn-dark" href="https://fr.wikipedia.org/wiki/Internet">Voir sur
+                                    Wikipédia</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </main>
+
     <div class="container mt-4">
         <h1 class="mb-4">Bienvenue aux commandes Git et Github</h1>
         <div class="row">
@@ -45,8 +125,9 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Commandes de base</h5>
-                        <p class="card-text">Commencez avec les commandes Git de base nécessaires pour une utilisation quotidienne.</p>
-                        <a href="glossary.html" class="btn btn-primary">En savoir plus</a>
+                        <p class="card-text">Commencez avec les commandes Git de base nécessaires pour une utilisation
+                            quotidienne.</p>
+                        <a href="glossary.html" class="btn bg-dark btn-dark">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Gestion des branches</h5>
                         <p class="card-text">Apprenez à gérer et fusionner les branches efficacement.</p>
-                        <a href="branches.html" class="btn btn-primary">En savoir plus</a>
+                        <a href="branches.html" class="btn bg-dark btn-dark">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -63,14 +144,92 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Sécurité et SSH</h5>
-                        <p class="card-text">Sécurisez vos projets Git avec des clés SSH et d'autres pratiques de sécurité.</p>
-                        <a href="security.html" class="btn btn-primary">En savoir plus</a>
+                        <p class="card-text">Sécurisez vos projets Git avec des clés SSH et d'autres pratiques de
+                            sécurité.</p>
+                        <a href="security.html" class="btn bg-dark btn-dark">En savoir plus</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">HTML5. <span class="text-muted">HyperText Markup Language</span>
+          </h2>
+          <p class="lead">HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour
+            l'hypertexte
+            ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. <br><br>
+            Le langage HTML utilise des « balises » pour annoter du texte, des images et d'autres contenus afin de les
+            afficher dans un navigateur web. Le balisage HTML comprend des « éléments » spéciaux tels que <a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/body">&lt;body&gt;</a>,
+            <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/header">&lt;header&gt;</a>,<a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer"> &lt;footer&gt;</a>,<a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/article"> &lt;article&gt;</a>,
+            <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/p">&lt;p&gt;</a>,<a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/div"> &lt;div&gt;</a>, <a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/img">&lt;img&gt;</a>, et bien d'autres.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="/images/git-logo.png" </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">CSS.<span class="text-muted"> : Feuilles de style en cascade
+              </span></h2>
+            <p class="lead">CSS est l'un des langages principaux du Web ouvert et a été standardisé par le W3C. Ce
+              standard évolue sous
+              forme de niveaux (levels), CSS1 est désormais considéré comme obsolète, CSS2.1 correspond à la
+              recommandation et CSS3, qui est découpé en modules plus petits, est en voie de standardisation.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" src="/images/github.png">
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Bootstrap. <span class="text-muted">Framework</span>
+            </h2>
+            <p class="lead">Bootstrap est une collection d'outils utiles à la création du design de sites et
+              d'applications web. C'est
+              un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres
+              éléments interactifs, ainsi que des extensions JavaScript en option.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" src="/images/gitlab.png">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fin Zone de news -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

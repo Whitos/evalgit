@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation de GitHub</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Votre CSS personnalisé -->
+    <link rel="stylesheet" href="../git.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="../images/ghlogo.png" alt="Logo Git et Github"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections GIT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../git/install.html">Installer Git</a></li>
+                            <li><a class="dropdown-item" href="../git/commandes.html">Commandes de base</a></li>
+                            <li><a class="dropdown-item" href="../git/branches.html">Gestion des branches</a></li>
+                            <li><a class="dropdown-item" href="../git/remote.html">Commandes distantes</a></li>
+                            <li><a class="dropdown-item" href="../git/security.html">SSH et sécurité</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections GitHub
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="install.html">Installer GitHub</a></li>
+                            <li><a class="dropdown-item" href="repositories.html">Gestion des repositories</a></li>
+                            <li><a class="dropdown-item" href="actions.html">GitHub Actions</a></li>
+                            <li><a class="dropdown-item" href="collaboration.html">Collaboration et Pull Requests</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sections VSCode
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="../vscode/install.html">Installer Visual Studio Code</a></li>
+                            <li><a class="dropdown-item" href="../vscode/extensions.html">Extensions et Plugins</a></li>
+                            <li><a class="dropdown-item" href="../vscode/shortcuts.html">Raccourcis Clavier</a></li>
+                            <li><a class="dropdown-item" href="../vscode/debugging.html">Débogage</a></li>
+                        </ul>                        
+                    </li>
+                </ul>
+            </div>
+            <li class="nav-item text-end">
+                <a class="nav-link" href="https://github.com/Whitos/evalgit"  target="_blank">Dépot GitHub</a>
+            </li>
+        </div>
+    </nav>
+
+    <div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+        <div class="container">
+            <h1 class="mb-5 text-center">Collaboration et Pull Requests</h1>
+            <p class="lead lead mb-5 text-center">Découvrez comment collaborer efficacement sur GitHub avec les Pull Requests.</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Création d'une Pull Request</h5>
+                    <p>Suivez ces étapes pour créer une Pull Request :</p>
+                    <div class="mb-3">
+                        <code>git checkout -b feature-branch</code> - Créez et basculez vers une nouvelle branche.<br>
+                        <code>git push origin feature-branch</code> - Poussez vos modifications vers GitHub.<br>
+                        <code>Ouvrez une Pull Request sur GitHub</code> - Utilisez l'interface GitHub pour ouvrir une nouvelle Pull Request.<br>
+                    </div>
+                </div>
+                <div class="col-md-12 text-end">
+                    <h5>Revue et Merge des Pull Requests</h5>
+                    <p>Suivez ces étapes pour revoir et merger une Pull Request :</p>
+                    <ul>
+                        <li>Accédez à l'onglet "Pull Requests" de votre repository sur GitHub.</li><br>
+                        <li>Sélectionnez la Pull Request que vous souhaitez revoir.</li>
+                        <li>Utilisez l'interface pour laisser des commentaires, approuver ou demander des modifications.</li>
+                        <li>Une fois approuvée, utilisez le bouton "Merge" pour fusionner la Pull Request.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bundle JS de Bootstrap avec Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

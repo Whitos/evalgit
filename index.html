@@ -21,13 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="glossary.html">Glossaire</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/Whitos/evalgit"  target="_blank">Dépot GitHub</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -35,19 +29,20 @@
                             Sections GIT
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="install.html">Installer Git</a></li>
-                            <li><a class="dropdown-item" href="branches.html">Gestion des branches</a></li>
-                            <li><a class="dropdown-item" href="remote.html">Commandes distantes</a></li>
-                            <li><a class="dropdown-item" href="security.html">SSH et sécurité</a></li>
+                            <li><a class="dropdown-item" href="git/install.html">Installer Git</a></li>
+                            <li><a class="dropdown-item" href="git/commandes.html">Commandes de base</a></li>
+                            <li><a class="dropdown-item" href="git/branches.html">Gestion des branches</a></li>
+                            <li><a class="dropdown-item" href="git/remote.html">Commandes distantes</a></li>
+                            <li><a class="dropdown-item" href="git/security.html">SSH et sécurité</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Sections 
+                            Sections Github 
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="install.html">Installer Github</a></li>
+                            <li><a class="dropdown-item" href="github/install.html">Installer Github</a></li>
                             <li><a class="dropdown-item" href="branches.html">Gestion des repistories</a></li>
                             <li><a class="dropdown-item" href="remote.html">Commandes</a></li>
                             <li><a class="dropdown-item" href="security.html">SSH et sécurité</a></li>
@@ -67,45 +62,57 @@
                     </li>
                 </ul>
             </div>
+            <li class="nav-item text-end">
+                <a class="nav-link" href="https://github.com/Whitos/evalgit"  target="_blank">Dépot GitHub</a>
+            </li>
         </div>
     </nav>
 
     
 
-    <div class="container mt-4">
-        <h1 class="mb-4">Bienvenue aux commandes Git et Github</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Commandes de base</h5>
-                        <p class="card-text">Commencez avec les commandes Git de base nécessaires pour une utilisation
-                            quotidienne.</p>
-                        <a href="glossary.html" class="btn bg-dark btn-dark">En savoir plus</a>
-                    </div>
+    <main class="d-flex align-items-center justify-content-center vh-100">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                    <section class="d-flex flex-column align-items-center">
+                        <img src="images/git.png" alt="Git Logo" class="img-fluid mb-4 section-logo">
+                        <br>
+                        <br>
+                        <h2 class="text-primary">Technologie Qui Fait La Différence</h2>
+                        <h1><span class="text-primary">Git</span>: Le Système de Contrôle de Version Idéal pour Tous Vos Projets</h1>
+                        <p>Git est un système de contrôle de version distribué, gratuit et open source, conçu pour gérer tout, des petits aux très grands projets, avec rapidité et efficacité.</p>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-outline-light">En Savoir Plus</a>
+                        </div>
+                    </section>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Gestion des branches</h5>
-                        <p class="card-text">Apprenez à gérer et fusionner les branches efficacement.</p>
-                        <a href="branches.html" class="btn bg-dark btn-dark">En savoir plus</a>
-                    </div>
+                <div class="col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                    <section class="d-flex flex-column align-items-center">
+                        <img src="images/github-logo.png" alt="GitHub Logo" class="img-fluid mb-4 section-logo">
+                        <br>
+                        <h2 class="text-primary">La Plateforme de Développement</h2>
+                        <h1><span class="text-primary">GitHub</span>: Où le Monde Construit des Logiciels</h1>
+                        <p>GitHub est une plateforme de développement inspirée par la manière dont vous travaillez. Du code ouvert aux entreprises, vous pouvez héberger et réviser du code, gérer des projets, et construire des logiciels aux côtés de millions d'autres développeurs.</p>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-outline-light">En Savoir Plus</a>
+                        </div>
+                    </section>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Sécurité et SSH</h5>
-                        <p class="card-text">Sécurisez vos projets Git avec des clés SSH et d'autres pratiques de
-                            sécurité.</p>
-                        <a href="security.html" class="btn bg-dark btn-dark">En savoir plus</a>
-                    </div>
+                <div class="col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                    <section class="d-flex flex-column align-items-center">
+                        <img src="images/vscode-logo.png" alt="Visual Studio Code Logo" class="img-fluid mb-4 section-logo">
+                        <br>
+                        <h2 class="text-primary">L'éditeur de Code Source</h2>
+                        <h1><span class="text-primary">Visual Studio Code</span>: Votre Outil de Développement Complet</h1>
+                        <p>Visual Studio Code est un éditeur de code source gratuit, optimisé pour la création et le débogage d'applications modernes. Il supporte une grande variété de langages de programmation et d'extensions, ce qui en fait l'outil de choix pour les développeurs.</p>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-outline-light">En Savoir Plus</a>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
 
     

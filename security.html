@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,13 @@
     <!-- Votre CSS personnalisé -->
     <link rel="stylesheet" href="git.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/ghlogo.png" alt="Logo Git et Github"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,7 +28,8 @@
                         <a class="nav-link" href="glossary.html">Glossaire</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Sections
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -40,25 +44,32 @@
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <h1 class="mb-4">SSH et Sécurité pour Git</h1>
-        <p class="lead">Découvrez comment sécuriser vos projets Git avec SSH et d'autres pratiques de sécurité.</p>
-        <div class="row">
-            <div class="col-md-12">
-                <h5>Création et Gestion de Clés SSH</h5>
-                <p>Utilisez les commandes suivantes pour créer et gérer vos clés SSH :</p>
-                <div class="mb-3">
-                    <code>ssh-keygen -t rsa -b 4096 -C "votre-email@example.com"</code> - Crée une nouvelle clé SSH avec RSA.<br>
-                    <code>ssh-add ~/.ssh/id_rsa</code> - Ajoute votre clé SSH au ssh-agent.<br>
-                    <code>ssh -T git@github.com</code> - Teste votre connexion SSH à GitHub.<br>
+    <div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+        <div class="container">
+            <h1 class="mb-5 text-center">SSH et Sécurité pour Git</h1>
+            <p class="lead lead mb-5 text-center">Découvrez comment sécuriser vos projets Git avec SSH et d'autres
+                pratiques de sécurité.</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Création et Gestion de Clés SSH</h5>
+                    <p>Utilisez les commandes suivantes pour créer et gérer vos clés SSH :</p>
+                    <div class="mb-3">
+                        <code>ssh-keygen -t rsa -b 4096 -C "votre-email@example.com"</code> - Crée une nouvelle clé SSH
+                        avec RSA.<br>
+                        <code>ssh-add ~/.ssh/id_rsa</code> - Ajoute votre clé SSH au ssh-agent.<br>
+                        <code>ssh -T git@github.com</code> - Teste votre connexion SSH à GitHub.<br>
+                    </div>
+                    <div class="col-md-12 text-end">
+                        <h5>Sécurité supplémentaire</h5>
+                        <p>Conseils pour améliorer la sécurité de vos projets Git :</p>
+                        <ul>
+                            <li>Utilisez toujours des communications sécurisées pour interagir avec le serveur distant
+                                (HTTPS, SSH).</li>
+                            <li>Ne partagez jamais vos clés privées SSH.</li>
+                            <li>Mettez régulièrement à jour vos dépendances pour éviter les vulnérabilités.</li>
+                        </ul>
+                    </div>
                 </div>
-                <h5>Sécurité supplémentaire</h5>
-                <p>Conseils pour améliorer la sécurité de vos projets Git :</p>
-                <ul>
-                    <li>Utilisez toujours des communications sécurisées pour interagir avec le serveur distant (HTTPS, SSH).</li>
-                    <li>Ne partagez jamais vos clés privées SSH.</li>
-                    <li>Mettez régulièrement à jour vos dépendances pour éviter les vulnérabilités.</li>
-                </ul>
             </div>
         </div>
     </div>
@@ -68,4 +79,5 @@
     <!-- Bundle JS de Bootstrap avec Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

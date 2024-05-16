@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,13 @@
     <!-- Votre CSS personnalisé -->
     <link rel="stylesheet" href="git.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/ghlogo.png" alt="Logo Git et Github"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,7 +28,8 @@
                         <a class="nav-link active" aria-current="page" href="glossary.html">Glossaire</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Sections
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -40,34 +44,38 @@
         </div>
     </nav>
 
-    <div class="container mt-4">
-        <h1 class="mb-4">Glossaire des commandes Git et Github</h1>
-        <p class="lead">Cette section est en cours de construction. Nous ajoutons continuellement de nouveaux termes et commandes.</p>
+    <div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+        <div class="container">
+            <h1 class="mb-5 text-center">Glossaire des commandes Git et Github</h1>
+            <p class="lead  mb-5 text-center">Cette section est en cours de construction. Nous ajoutons continuellement
+                de nouveaux termes
+                et commandes.</p>
 
-        <!-- Exemple de contenu du glossaire -->
-        <div class="row">
-            <div class="col-md-6">
-                <h5>Commandes Basiques</h5>
-                <dl class="row">
-                    <dt class="col-sm-4">git init</dt>
-                    <dd class="col-sm-8">Initialise un nouveau dépôt git.</dd>
+            <!-- Exemple de contenu du glossaire -->
+            <div class="row">
+                <div class="col-md-6 offset-md-1 mb-3">
+                    <h5>Commandes Basiques</h5>
+                    <dl class="row">
+                        <dt class="col-sm-4"><code>git init</code></dt>
+                        <dd class="col-sm-8">Initialise un nouveau dépôt git.</dd>
 
-                    <dt class="col-sm-4">git clone</dt>
-                    <dd class="col-sm-8">Clone un dépôt existant.</dd>
+                        <dt class="col-sm-4"><code>git clone</code></dt>
+                        <dd class="col-sm-8">Clone un dépôt existant.</dd>
 
-                    <dt class="col-sm-4">git add</dt>
-                    <dd class="col-sm-8">Ajoute des fichiers à l'index.</dd>
-                </dl>
-            </div>
-            <div class="col-md-6">
-                <h5>Commandes Avancées</h5>
-                <dl class="row">
-                    <dt class="col-sm-4">git rebase</dt>
-                    <dd class="col-sm-8">Réapplique des commits sur une autre base.</dd>
+                        <dt class="col-sm-4"><code>git add</code></dt>
+                        <dd class="col-sm-8">Ajoute des fichiers à l'index.</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6 mb-3 offset-md-5 text-end">
+                    <h5>Commandes Avancées</h5>
+                    <dl class="row">
+                        <dt class="col-sm-4"><code>git rebase</code></dt>
+                        <dd class="col-sm-8">Réapplique des commits sur une autre base.</dd>
 
-                    <dt class="col-sm-4">git merge</dt>
-                    <dd class="col-sm-8">Fusionne deux branches.</dd>
-                </dl>
+                        <dt class="col-sm-4"><code>git merge</code></dt>
+                        <dd class="col-sm-8">Fusionne deux branches.</dd>
+                    </dl>
+                </div>
             </div>
         </div>
     </div>
@@ -76,4 +84,5 @@
     <!-- Bundle JS de Bootstrap avec Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

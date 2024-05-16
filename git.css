@@ -9,9 +9,27 @@ body {
     height: 40px;
 }
 
+h1{
+    color: rgb(30, 110, 110);
+}
+
 h2 {
     text-align: center;
     color: #000000; /* Couleur du titre */
+}
+
+h5{
+    color: rgb(30, 110, 110);
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.border-start {
+    border-left: 2px solid #000; /* Adjust the width and color of the border as needed */
+    padding-left: 20px; /* Adjust the padding as needed */
 }
 
 .carousel-container {

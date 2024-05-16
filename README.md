@@ -8,7 +8,7 @@ Evaluation GIT [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d
 <hr>
 
 ---
-title: Git config
+Title: Git config
 category: Git
 ---
 
